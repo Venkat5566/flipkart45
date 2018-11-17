@@ -6,7 +6,7 @@ for i in `seq $count`
 do
 	echo "==============================================="
 	echo "creating flipkart$i container..."
-	docker run -it -d --name flipkart$i jyo/flipkart_img /bin/bash
+	docker run -it -d --name flipkart$i jyothi5566/flipkart_img /bin/bash
 	echo "flipkart$i container has been created"
 	echo "==============================================="
 
